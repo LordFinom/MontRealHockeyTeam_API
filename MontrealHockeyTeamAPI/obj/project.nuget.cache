@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "0H9lMmKp4R7mKAKVLPyVf5damX/+t0bO2gGg7+6Kz3AK239reFU6r4qGq1LKnU9PRCuJXPNtzoLxrUip2Rseig==",
+  "success": true,
+  "projectFilePath": "/Users/florimondjacquet/Desktop/REPOS/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/florimondjacquet/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.3/microsoft.aspnetcore.jsonpatch.6.0.3.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.3/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.3.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/microsoft.data.sqlite/6.0.3/microsoft.data.sqlite.6.0.3.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/microsoft.data.sqlite.core/6.0.3/microsoft.data.sqlite.core.6.0.3.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.6/sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/sqlitepclraw.core/2.0.6/sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.6/sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.0.6/sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/Users/florimondjacquet/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

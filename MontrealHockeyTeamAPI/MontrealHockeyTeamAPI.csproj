@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.3" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="DBContext\" />
+    <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
+    <None Remove="Interfaces\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="System.Data.SQLite" />
+    <None Remove="System.Data.SQLite.Core" />
+    <None Remove="data\" />
+    <None Remove="Interfaces\implements\" />
+    <None Remove="DAL\queries\" />
+    <None Remove="Microsoft.Data.Sqlite.Core" />
+    <None Remove="SQLiteNetExtensions" />
+    <None Remove="Microsoft.Data.Sqlite" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="SqlDBContext\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Interfaces\implements\" />
+    <Folder Include="DAL\queries\" />
+  </ItemGroup>
+</Project>
