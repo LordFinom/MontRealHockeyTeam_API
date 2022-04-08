@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0H9lMmKp4R7mKAKVLPyVf5damX/+t0bO2gGg7+6Kz3AK239reFU6r4qGq1LKnU9PRCuJXPNtzoLxrUip2Rseig==",
+  "dgSpecHash": "LqabsK2AN8ietOiGFiEjE5KQ39WCdZAycLqkfKga85JRaAUVs5drTOs7asBbYMJXJPv40SloHtgVKIMfUFWMFw==",
   "success": true,
-  "projectFilePath": "/Users/florimondjacquet/Desktop/REPOS/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI.csproj",
+  "projectFilePath": "/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI.csproj",
   "expectedPackageFiles": [
     "/Users/florimondjacquet/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.3/microsoft.aspnetcore.jsonpatch.6.0.3.nupkg.sha512",
     "/Users/florimondjacquet/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.3/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.3.nupkg.sha512",

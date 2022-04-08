@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/florimondjacquet/Desktop/REPOS/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI.csproj",
+      "projectUniqueName": "/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI.csproj",
       "projectName": "MontrealHockeyTeamAPI",
-      "projectPath": "/Users/florimondjacquet/Desktop/REPOS/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI.csproj",
+      "projectPath": "/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI.csproj",
       "packagesPath": "/Users/florimondjacquet/.nuget/packages/",
-      "outputPath": "/Users/florimondjacquet/Desktop/REPOS/MontrealHockeyTeamAPI/MontrealHockeyTeamAPI/obj/",
+      "outputPath": "/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/florimondjacquet/.nuget/NuGet/NuGet.Config"

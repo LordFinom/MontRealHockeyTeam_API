@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1700.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MontrealHockeyTeamAPI", "MontrealHockeyTeamAPI\MontrealHockeyTeamAPI.csproj", "{7FB8B711-23C8-4068-AE29-22838825AD82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MontrealHockeyTeamAPI.Tests", "MontrealHockeyTeamAPI.Tests\MontrealHockeyTeamAPI.Tests.csproj", "{48D0E313-08E7-410A-B014-576CF3E869C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7FB8B711-23C8-4068-AE29-22838825AD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB8B711-23C8-4068-AE29-22838825AD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB8B711-23C8-4068-AE29-22838825AD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D0E313-08E7-410A-B014-576CF3E869C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D0E313-08E7-410A-B014-576CF3E869C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D0E313-08E7-410A-B014-576CF3E869C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D0E313-08E7-410A-B014-576CF3E869C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
