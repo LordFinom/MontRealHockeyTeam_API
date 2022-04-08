@@ -1,5 +1,36 @@
 ﻿<Properties StartupConfiguration="{7FB8B711-23C8-4068-AE29-22838825AD82}|Default">
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MontrealHockeyTeamAPI.Tests/UnitTest1.cs">
+    <Files>
+      <File FileName="MontrealHockeyTeamAPI.Tests/UnitTest1.cs" Line="11" Column="30" />
+      <File FileName="MontrealHockeyTeamAPI/Controllers/TeamController.cs" Line="35" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MontrealHockeyTeamAPI" expanded="True">
+            <Node name="MontrealHockeyTeamAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="MontrealHockeyTeamAPI.Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MontrealHockeyTeamAPI" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MontrealHockeyTeamAPI.Tests FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.MontrealHockeyTeamAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
