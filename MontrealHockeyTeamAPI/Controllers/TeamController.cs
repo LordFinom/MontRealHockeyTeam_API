@@ -12,29 +12,41 @@ public class TeamController : ControllerBase
 {
 
     private readonly ILogger<TeamController> _logger;
-    private readonly IConfiguration _configuration;
     private readonly ITeamDataAccess _teamDataAccess;
     private readonly IPlayerDataAccess _playerDataAccess;
 
-    public TeamController(ILogger<TeamController> logger, IConfiguration configuration, ITeamDataAccess teamDataAccess, IPlayerDataAccess playerDataAccess )
+    public TeamController(ILogger<TeamController> logger, ITeamDataAccess teamDataAccess, IPlayerDataAccess playerDataAccess )
     {
         _logger = logger;
-        _configuration = configuration;
         _teamDataAccess = teamDataAccess;
         _playerDataAccess = playerDataAccess;
     }
 
     [HttpGet]
     [Produces("application/json")]
-    public List<Team> Get()
+    public ActionResult<List<Team>> Get()
     {
-        return _teamDataAccess.GetAllTeamsWithPlayers();
+        if(_teamDataAccess.GetAllTeamsWithPlayers().Count == 0)
+        {
+            return Ok();
+        }
+        else
+        {
+            return StatusCode(200, _teamDataAccess.GetAllTeamsWithPlayers());
+        }
     }
     [HttpGet("{year:int}")]
     [Produces("application/json")]
-    public Team GetTeamByYear(int year)
+    public ActionResult GetTeamByYear(int year)
     {
-        return _teamDataAccess.GetTeamByYearWithPlayers(year);
+        if (year < 2010 || year > 2021)
+        {
+            return StatusCode(404);
+        }
+        else
+        {
+            return StatusCode(200, _teamDataAccess.GetTeamByYearWithPlayers(year));
+        }
     }
     [HttpPost("{year:int}")]
     [ProducesResponseType(201)]

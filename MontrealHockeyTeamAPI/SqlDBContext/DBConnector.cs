@@ -10,9 +10,7 @@ namespace MontrealHockeyTeamAPI.SqlDBContext
 		{
 			if(_connection == null)
             {
-				var connectionStringBuilder = new SqliteConnectionStringBuilder();
-				connectionStringBuilder.DataSource = "./SqlDBContext/MTHockeyTeam.db";
-				_connection = new SqliteConnection(connectionStringBuilder.ConnectionString);
+				_connection = new SqliteConnection(Path.Combine("Data Source=SqlDBContext", "MTHockeyTeam.db"));
 
 			}
 

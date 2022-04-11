@@ -6,6 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>embedded</DebugType>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.3" />
@@ -27,6 +34,7 @@
     <None Remove="Microsoft.Data.Sqlite.Core" />
     <None Remove="SQLiteNetExtensions" />
     <None Remove="Microsoft.Data.Sqlite" />
+    <None Remove="SqlDBContext\MTHockeyTeam.db" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -35,5 +43,7 @@
     <Folder Include="DAL\" />
     <Folder Include="Interfaces\implements\" />
     <Folder Include="DAL\queries\" />
+    <Folder Include="SqlDBContext\MTHockeyTeam.db">
+    </Folder>
   </ItemGroup>
 </Project>

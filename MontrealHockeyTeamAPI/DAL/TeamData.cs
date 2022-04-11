@@ -1,4 +1,5 @@
-﻿using Microsoft.Data.Sqlite;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.Sqlite;
 using MontrealHockeyTeamAPI.DAL.queries;
 using MontrealHockeyTeamAPI.Interfaces.implements;
 using MontrealHockeyTeamAPI.Models;
@@ -16,7 +17,7 @@ namespace MontrealHockeyTeamAPI.DAL
             int yearFlag = 0;
             using (var connection = DBConnector.Connection())
             {
-                connection.Open();
+                connection.OpenAsync();
                 var command = connection.CreateCommand();
                 command.CommandText = TeamQueries.GET_ALL_YEARS;
 

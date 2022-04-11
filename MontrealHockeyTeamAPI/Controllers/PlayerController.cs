@@ -11,14 +11,12 @@ namespace MontrealHockeyTeamAPI.Controllers;
 public class PLayerController : ControllerBase
 {
 
-    private readonly ILogger<TeamController> _logger;
-    private readonly IConfiguration _configuration;
+    private readonly ILogger<PLayerController> _logger;
     private readonly IPlayerDataAccess _playerDataAccess;
 
-    public PLayerController(ILogger<TeamController> logger, IConfiguration configuration, IPlayerDataAccess playerDataAccess)
+    public PLayerController(ILogger<PLayerController> logger, IPlayerDataAccess playerDataAccess)
     {
         _logger = logger;
-        _configuration = configuration;
         _playerDataAccess = playerDataAccess;
     }
 
@@ -28,8 +26,14 @@ public class PLayerController : ControllerBase
     [Produces("application/json")]
     public StatusCodeResult AddPlayerOnTeamByYear(int id)
     {
-        _playerDataAccess.UpdatePlayerAsCaptain(id);
-        return StatusCode(200);
+        if(id < 0)
+        {
+            return StatusCode(400);
+        }
+        else{
+            _playerDataAccess.UpdatePlayerAsCaptain(id);
+            return StatusCode(200);
+        }
     }
 }
 
