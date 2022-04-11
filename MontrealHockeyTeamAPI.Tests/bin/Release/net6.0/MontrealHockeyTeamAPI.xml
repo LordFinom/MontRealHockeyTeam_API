@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MontrealHockeyTeamAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MontrealHockeyTeamAPI.Controllers.PLayerController.AddPlayerOnTeamByYear(System.Int32)">
+            <summary>
+            Update player to be the captain of the  his team
+            </summary>
+            <param name="id"></param>
+            <returns>200 statuscode if player updated</returns>
+        </member>
+        <member name="M:MontrealHockeyTeamAPI.Controllers.TeamController.GetTeamByYear(System.Int32)">
+            <summary>
+            Get all Team with all the players by Year
+            </summary>
+            <param name="year"></param>
+            <returns>200 statusCode</returns>
+        </member>
+        <member name="M:MontrealHockeyTeamAPI.Controllers.TeamController.AddPlayerOnTeamByYear(System.Int32,MontrealHockeyTeamAPI.Models.Player)">
+            <summary>
+            Add player on a specific roster year
+            </summary>
+            <param name="year"></param>
+            <param name="player"></param>
+            <returns>200 statusCode</returns>
+        </member>
+        <member name="M:MontrealHockeyTeamAPI.Interfaces.implements.ITeamDataAccess.GetAllTeamsWithPlayers">
+            <summary>
+            Get all Teams with assiociate players
+            </summary>
+            <returns>The team list</returns>
+        </member>
+        <member name="M:MontrealHockeyTeamAPI.Interfaces.implements.ITeamDataAccess.GetTeamByYearWithPlayers(System.Int32)">
+            <summary>
+            Get one team with year parameter and assiociate players
+            </summary>
+            <param name="year"></param>
+            <returns>one Team</returns>
+        </member>
+    </members>
+</doc>

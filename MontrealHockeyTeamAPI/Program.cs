@@ -1,5 +1,6 @@
 ﻿
 using System.Net;
+using System.Reflection;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.OpenApi.Models;
 using MontrealHockeyTeamAPI.DAL;
@@ -31,6 +32,9 @@ builder.Services.AddSwaggerGen(options =>
         Title = "MontRealHockeyTEam API",
         Description = "Web API .NET 6.0 here to manage Montreal canadiens roster",
     });
+    // using System.Reflection;
+    var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
 
 if (!builder.Environment.IsDevelopment())

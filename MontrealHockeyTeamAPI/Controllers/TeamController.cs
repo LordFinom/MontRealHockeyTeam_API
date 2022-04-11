@@ -21,15 +21,23 @@ public class TeamController : ControllerBase
         _teamDataAccess = teamDataAccess;
         _playerDataAccess = playerDataAccess;
     }
-
+    /// <summary>
+    /// Get Team with all the players by Year
+    /// </summary>
+    /// <param name="year"></param>
+    /// <returns>200 statusCode</returns>
     [HttpGet("{year:int}")]
     [Produces("application/json")]
     public ActionResult GetTeamByYear(int year)
     {
-
         return StatusCode(200, _teamDataAccess.GetTeamByYearWithPlayers(year));
-
     }
+    /// <summary>
+    /// Add player on a specific roster year
+    /// </summary>
+    /// <param name="year"></param>
+    /// <param name="player"></param>
+    /// <returns>200 statusCode</returns>
     [HttpPost("{year:int}")]
     [ProducesResponseType(201)]
     [Produces("application/json")]

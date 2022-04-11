@@ -55,6 +55,7 @@
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/MontrealHockeyTeamAPI.runtimeconfig.json
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/MontrealHockeyTeamAPI.dll
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/MontrealHockeyTeamAPI.pdb
+/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/MontrealHockeyTeamAPI.xml
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/Microsoft.Data.Sqlite.dll
@@ -87,14 +88,15 @@
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.AssemblyInfoInputs.cache
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.AssemblyInfo.cs
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.csproj.CoreCompileInputs.cache
+/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.MvcApplicationPartsAssemblyInfo.cache
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/staticwebassets.build.json
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/staticwebassets.development.json
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/scopedcss/bundle/MontrealHockeyTeamAPI.styles.css
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.csproj.CopyComplete
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.dll
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/refint/MontrealHockeyTeamAPI.dll
+/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.xml
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.pdb
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.genruntimeconfig.cache
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/ref/MontrealHockeyTeamAPI.dll
-/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.MvcApplicationPartsAssemblyInfo.cs
-/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Release/net6.0/MontrealHockeyTeamAPI.MvcApplicationPartsAssemblyInfo.cache
