@@ -32,3 +32,4 @@
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/publish/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/publish/runtimes/win-x64/native/e_sqlite3.dll
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/publish/runtimes/win-x86/native/e_sqlite3.dll
+/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Release/net6.0/publish/MontrealHockeyTeamAPI.xml

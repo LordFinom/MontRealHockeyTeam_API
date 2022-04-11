@@ -1,6 +1,7 @@
 ﻿
 using System.Net;
 using System.Reflection;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.OpenApi.Models;
 using MontrealHockeyTeamAPI.DAL;
@@ -39,29 +40,18 @@ builder.Services.AddSwaggerGen(options =>
 
 if (!builder.Environment.IsDevelopment())
 {
-    builder.Services.AddHttpsRedirection(options =>
+    builder.WebHost.ConfigureKestrel(options =>
     {
-        options.RedirectStatusCode = (int)HttpStatusCode.PermanentRedirect;
-        options.HttpsPort = 5001;
+        options.ListenAnyIP(5000); // to listen for incoming http connection on port 5000
+        options.ListenAnyIP(5001, configure => configure.UseHttps()); // to listen for incoming https connection on port 5001
     });
 }
+
 
 var app = builder.Build();
 
 app.UseSwagger();
-
-app.UseSwaggerUI(options =>
-{
-    options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-    options.RoutePrefix = string.Empty;
-});
-
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Error");
-    app.UseHsts();
-    app.UseHttpsRedirection();
-}
+app.UseSwaggerUI();
 
 // global cors policy
 app.UseCors(x => x
@@ -70,8 +60,16 @@ app.UseCors(x => x
     .SetIsOriginAllowed(origin => true) // allow any origin
     .AllowCredentials()); // allow credentials
 
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+});
 
-app.UseAuthorization();
+//app.UseAuthentication();
+
+//app.UseHttpsRedirection();
+
+//app.UseAuthorization();
 
 app.MapControllers();
 

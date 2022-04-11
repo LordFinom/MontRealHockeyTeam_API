@@ -2,18 +2,24 @@
   <MonoDevelop.Ide.ItemProperties.MontrealHockeyTeamAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <Debugger.DebugSourceFolders />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MontrealHockeyTeamAPI/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MontrealHockeyTeamAPI.Tests/PlayerControllerTests.cs">
     <Files>
-      <File FileName="MontrealHockeyTeamAPI/Program.cs" Line="35" Column="1" />
+      <File FileName="MontrealHockeyTeamAPI/Properties/launchSettings.json" Line="16" Column="72" />
+      <File FileName="MontrealHockeyTeamAPI/appsettings.json" Line="1" Column="1" />
+      <File FileName="MontrealHockeyTeamAPI/Program.cs" Line="37" Column="85" />
+      <File FileName="MontrealHockeyTeamAPI/Controllers/PlayerController.cs" Line="23" Column="5" />
+      <File FileName="MontrealHockeyTeamAPI/Controllers/TeamController.cs" Line="25" Column="13" />
+      <File FileName="MontrealHockeyTeamAPI/DAL/TeamData.cs" Line="1" Column="1" />
+      <File FileName="MontrealHockeyTeamAPI.Tests/PlayerControllerTests.cs" Line="26" Column="1" />
+      <File FileName="MontrealHockeyTeamAPI/MontrealHockeyTeamAPI.csproj" Line="9" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MontrealHockeyTeamAPI" expanded="True" selected="True">
+          <Node name="MontrealHockeyTeamAPI" expanded="True">
             <Node name="MontrealHockeyTeamAPI" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="SqlDBContext" expanded="True" />
+              <Node name="SqlDBContext" selected="True" />
             </Node>
             <Node name="MontrealHockeyTeamAPI.Tests" expanded="True" />
           </Node>
@@ -29,7 +35,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

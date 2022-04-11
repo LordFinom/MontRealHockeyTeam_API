@@ -96,3 +96,5 @@
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Debug/net6.0/refint/MontrealHockeyTeamAPI.dll
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Debug/net6.0/MontrealHockeyTeamAPI.genruntimeconfig.cache
 /Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Debug/net6.0/ref/MontrealHockeyTeamAPI.dll
+/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/bin/Debug/net6.0/MontrealHockeyTeamAPI.xml
+/Users/florimondjacquet/Desktop/REPOS/CLONES/MontRealHockeyTeam_API/MontrealHockeyTeamAPI/obj/Debug/net6.0/MontrealHockeyTeamAPI.xml
