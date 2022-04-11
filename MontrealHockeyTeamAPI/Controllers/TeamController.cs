@@ -22,31 +22,13 @@ public class TeamController : ControllerBase
         _playerDataAccess = playerDataAccess;
     }
 
-    [HttpGet]
-    [Produces("application/json")]
-    public ActionResult<List<Team>> Get()
-    {
-        if(_teamDataAccess.GetAllTeamsWithPlayers().Count == 0)
-        {
-            return Ok();
-        }
-        else
-        {
-            return StatusCode(200, _teamDataAccess.GetAllTeamsWithPlayers());
-        }
-    }
     [HttpGet("{year:int}")]
     [Produces("application/json")]
     public ActionResult GetTeamByYear(int year)
     {
-        if (year < 2010 || year > 2021)
-        {
-            return StatusCode(404);
-        }
-        else
-        {
-            return StatusCode(200, _teamDataAccess.GetTeamByYearWithPlayers(year));
-        }
+
+        return StatusCode(200, _teamDataAccess.GetTeamByYearWithPlayers(year));
+
     }
     [HttpPost("{year:int}")]
     [ProducesResponseType(201)]

@@ -20,6 +20,11 @@ public class PLayerController : ControllerBase
         _playerDataAccess = playerDataAccess;
     }
 
+    /// <summary>
+    /// Update player to be the captain of the  his team
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns>200 statuscode if player updated</returns>
     [HttpPut]
     [Route("{id:int}/captain")]
     [ProducesResponseType(200)]
